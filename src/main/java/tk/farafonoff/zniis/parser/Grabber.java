@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.jsoup.nodes.Document;
 
-public class Grabber {
+public class Grabber implements Resolver {
     String r;
     String captcha;
     Fetcher fetcher;
