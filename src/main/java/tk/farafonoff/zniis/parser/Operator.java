@@ -29,7 +29,9 @@ public class Operator {
     public static List<Operator> operators = Arrays.asList(
             new Operator("Мобильные ТелеСистемы", "MTS", 99), 
             new Operator("ВымпелКом", "BEELINE", 1),
-            new Operator("TELE2","TELE2",2),
+            new Operator("TELE2","TELE2",20),
+			new Operator("T2","TELE2",20),
+			new Operator("Т2 Мобайл","TELE2",20),
             new Operator("МегаФон","MEGAFON",2));
     
     public static Operator getByOpline(String request) {
